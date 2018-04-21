@@ -1,5 +1,5 @@
-#Updating Concourse
-Update concourse and fly in the machine running concourse-web
+### Updating Concourse
+#### Update concourse and fly in the machine running concourse-web
 
 ```
 $ cd /tmp
@@ -40,7 +40,7 @@ $ fly -t local prune-worker -w concourse-worker-1
 
 ```
 
-Update concourse on all worker machines
+#### Update concourse on all worker machines
 ```
 $ curl -LO https://github.com/concourse/concourse/releases/download/v3.11.0/concourse_linux_amd64
 $ chmod +x concourse_linux_amd64
